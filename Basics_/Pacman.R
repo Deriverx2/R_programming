@@ -1,0 +1,8 @@
+install.packages("pacman")
+require(pacman)
+library(pacman)
+pacman::p_load(pacman,dplyr,GGally,ggplot2,ggthemes,ggvis,httr,tidyr,stringr,lubridate,plotly,rio,rmarkdown,shiny)
+library(datasets)
+p_unload(all)
+detach("package:datasets",unload = TRUE)
+cat("\014")
