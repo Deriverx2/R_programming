@@ -4,7 +4,7 @@ library(datasets)
 head(iris)
 
 #syntax
-#hist(data,main,xlab,ylab,xlim,ylim,col,border)
+#hist(data,main,xlab,ylab,xlim,ylim,col,border, breaks)
 
 #basic histogram
 hist(iris$Sepal.Length)
