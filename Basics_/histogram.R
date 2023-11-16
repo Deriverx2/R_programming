@@ -3,6 +3,7 @@ library(datasets)
 ?iris
 head(iris)
 
+#syntax
 #hist(data,main,xlab,ylab,xlim,ylim,col,border)
 
 #basic histogram
