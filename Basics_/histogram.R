@@ -40,6 +40,7 @@ hist(iris$Petal.Width [iris$Species=="virginica"],
 #restore graphic parameter
 par(mfrow=c(1,1))
 
+print(mean(iris$Sepal.Length))
 detach("package:datasets",unload = TRUE)
 dev.off()
 cat("\014")#clear console
