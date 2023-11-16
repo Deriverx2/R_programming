@@ -3,6 +3,8 @@ library(datasets)
 ?iris
 head(iris)
 
+#hist(data,main,xlab,ylab,xlim,ylim,col,border)
+
 #basic histogram
 hist(iris$Sepal.Length)
 hist(iris$Sepal.Width)
