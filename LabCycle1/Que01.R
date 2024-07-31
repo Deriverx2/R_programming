@@ -8,7 +8,7 @@ library(stringr)
 
 text <- "Both sides are proud of the wide range of existing collaborations between UK and Indian institutions in this domain; and seek to build on this strong foundation to collectively shape a fourth industrial revolution that improves our citizen’s health, wellbeing and prosperity, in ways which support democracy and peace. Both countries view this Technology Security Initiative as a platform and a strong signal of intent to build and grow sustainable and tangible partnerships across priority tech sectors."
 
-words <- unlist(strsplit(text, "[.,!? ]"))
+words <- unlist(strsplit(text, "\\W+"))
 words <- words[words != ""]
 
 totalWords <- length(words)
