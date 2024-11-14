@@ -1,5 +1,5 @@
 # import the dataset using the environment section
-df <- Statewise_General_Index_Upto_Feb24
+df <- read.csv("C:/Users/benso/OneDrive/Desktop/Dumb_hit/sem_5/R_programming/R_Programming_Lab/Project/Statewise_General_Index_Upto_Feb24.csv")
 
 head(df)
 
